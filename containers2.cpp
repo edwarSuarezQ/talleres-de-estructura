@@ -76,7 +76,7 @@ void menu() {
 int posicionar(contenedor *tempo) {
 
     if(nuevo->prioridad == tempo->prioridad) {
-        (nuevo->prioridad = tempo->prioridad)-1;
+        nuevo->prioridad = tempo->prioridad-1;
 
     }
     if(nuevo->prioridad < tempo->prioridad ) {
